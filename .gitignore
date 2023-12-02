@@ -1,0 +1,22 @@
+# Ignore WordPress uploads (if using default wp-content/uploads)
+wp-content/uploads/
+
+# Ignore Node.js files (if using npm for development)
+node_modules/
+
+# Ignore logs and cache files
+wp-content/advanced-cache.php
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup-db/
+
+# Ignore configuration files
+wp-config.php
+
+# Ignore environment files
+.env
+
+# Ignore backup files
+*.bak
+*.swp
+*~
